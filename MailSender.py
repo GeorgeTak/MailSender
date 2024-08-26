@@ -3,7 +3,7 @@ import re
 import time
 
 # Initialize MailerSend API details
-api_key = "mlsn.79d29f1a4eb3c06a2465dc6766a8dfa2ed1c0bdb286ffe97cea6f32870c3035b"  # Replace with your actual API key
+api_key = "Replace with your actual API key" 
 url = "https://api.mailersend.com/v1/email"
 
 def is_valid_email(email):
@@ -11,7 +11,7 @@ def is_valid_email(email):
     return re.match(r"[^@]+@[^@]+\.[^@]+", email)
 
 while True:
-    from_email = "you@trial-z86org86dvz4ew13.mlsender.net"  # Replace with your verified MailerSend domain
+    from_email = "Replace with your verified MailerSend domain"
 
     # Prompt user for the recipient's email
     recipient_email = input("Enter the recipient's email address: ")
